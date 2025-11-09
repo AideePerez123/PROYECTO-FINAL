@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.json({ mensaje: 'ARCADESTORE Backend funcionando ✅' });
+  res.json({ mensaje: 'ARCADESTORE Backend funcionando' });
 });
 
 app.use('/api/auth', authRoutes);
